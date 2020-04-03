@@ -16,7 +16,7 @@ A **financial API** called [fmpcloud](https://fmpcloud.io/) offers a few free ca
 the Available Market and tickers sub-section.
 
 
-![](Fmpcloud.png)
+![](FmpCloud.png)
 
 
 1) Extract a list of [tickers](https://www.investopedia.com/ask/answers/12/what-is-a-stock-ticker.asp) for all stocks for which we are going to calculate the dividend yield. In our case, we are going to get all stocks of companies trading in Nasdaq and add them to a list called symbols:
