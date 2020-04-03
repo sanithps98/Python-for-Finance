@@ -16,13 +16,13 @@ A **financial API** called [fmpcloud](https://fmpcloud.io/) offers a few free ca
 the Available Market and tickers sub-section.
 
 
-![](FmpCloud.png)
+![](Fmp_Cloud.png)
 
 
 1) Extract a list of [tickers](https://www.investopedia.com/ask/answers/12/what-is-a-stock-ticker.asp) for all stocks for which we are going to calculate the dividend yield. In our case, we are going to get all stocks of companies trading in Nasdaq and add them to a list called symbols:
 
 
-![](Image1.png)
+![](Image_1.png)
 
 
 2) After collecting the list of stocks trading in NASDAQ, loop through each of them and make a http request to the API end point to retrieve [company financial information](https://fmpcloud.io/api/v3/profile/AAPL?apikey=demo).
@@ -30,13 +30,13 @@ the Available Market and tickers sub-section.
     Parse the response to extract the details such as last annual dividend, price, market                capitalisation, company name and exchange name. Then calculate the Dividend Yield and add all these variables to a Python Dictionary called **DivYield**
 
 
-![](Image2.png)
+![](Image_2.png)
 
 
 3) Finally having all data extracted from the API. Now present the results in a nice Pandas DataFrame and sort the Dividend Yield values in ascending order to have high dividend stocks at the top.
 
 
-![](Image3.png)
+![](Image_3.png)
 
 
 Dividend yield is a backward looking measure ie It looks at the last year annual dividend. This does not actually mean that the company will keep the same dividend amount during next years specially if they are having financial troubles.
