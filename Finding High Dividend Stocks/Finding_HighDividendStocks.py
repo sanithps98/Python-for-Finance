@@ -3,15 +3,17 @@ import requests
 import json
 
 my_apikey = 'TYPE YOUR API KEY'
+
 tickers = requests.get(f'https://fmpcloud.io/api/v3/symbol/available-nasdaq?apikey={my_apikey}')
 tickers = tickers.json()
 
-#tickers = open('tickers.json')
-#tickers = json.load(tickers)
+#tickers is a list of dictionaries
 
 symbols = []
 for ticker in tickers:
     symbols.append(ticker['symbol'])
+
+#symbols is a list containing the company names extracted from tickers
   
 DivYield = {}
 
@@ -37,6 +39,8 @@ for company in symbols_short:
     pass
 
 print(DivYield)
+#DivYield is a Dictionary of dictionaries containing the Company names from symbols as key and details such as
+#latest Annual Dividend,stock price,market capitalization, company name and exchange name as value    
 
 DivYield_dataframe = pd.DataFrame.from_dict(DivYield, orient='index')
 DivYield_dataframe = DivYield_dataframe.sort_values(['Dividend_Yield'], ascending=[False])
