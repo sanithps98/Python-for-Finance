@@ -7,10 +7,10 @@ Quantitative Analysts who believe in Trading need access to Stock Price and Volu
 
 
 - [**Open**](https://www.investopedia.com/terms/o/openingprice.asp) - When the stock market opens in the morning for trading, what was the price of one share?
-- {**High**](https://www.investopedia.com/terms/t/todayshigh.asp) - over the course of the trading day, what was the highest value for that day?
+- [**High**](https://www.investopedia.com/terms/t/todayshigh.asp) - over the course of the trading day, what was the highest value for that day?
 - [**Low**](https://www.investopedia.com/terms/t/todayslow.asp) - over the course of the trading day, what was the lowest value for that day?
 - [**Close**](https://www.investopedia.com/terms/c/closingprice.asp) - When the trading day was over, what was the final price?
-- [**Volume***](https://www.investopedia.com/terms/v/volume.asp) - For that day, how many shares were traded?
+- [**Volume**](https://www.investopedia.com/terms/v/volume.asp) - For that day, how many shares were traded?
 - [**Adj Close**](https://www.investopedia.com/terms/a/adjusted_closing_price.asp) - It is considered to be the true price of that stock and is often used when examining historical returns or performing a detailed analysis of historical returns.
 
 
