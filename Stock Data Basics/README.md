@@ -15,7 +15,7 @@ This dataframe consists of attributes such as Date, Opening Price, Closing Price
 - [**Volume**](https://www.investopedia.com/terms/v/volume.asp) - For that day, how many shares were traded?
 - [**Adj Close**](https://www.investopedia.com/terms/a/adjusted_closing_price.asp) - It is considered to be the true price of that stock and is often used when examining historical returns or performing a detailed analysis of historical returns.
 
-In this Python Script using the pandas datareader and Yahoo Finance API, the stock data for the company Amazon for the year 2020 has been extracted and various plots have been created with the data using the matplotlib's pyplot.
+In this Python Script using the pandas datareader and [Yahoo Finance](https://in.finance.yahoo.com/) API, the stock data for the company Amazon for the year 2020 has been extracted and various plots have been created using the matplotlib's pyplot.
 
 
 ![](Image2.png)
