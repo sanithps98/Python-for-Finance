@@ -53,4 +53,7 @@ Define a new subplot (also called axis) for the data and use the candlestick fun
 
 To make our chart look a bit more professional, we will make some changes in its style.
 
+
+![](Image5.png)
+
 Of course, the more you zoom in, the more you will be able to see the individual candlesticks. This is a great way to visualize four different values in a single chart.
