@@ -18,7 +18,7 @@ The main component of the chart which represents prices looks like a candlestick
 
 For more details, refer to the youtube video : [**How to Read Japanese Candlechart?**](https://youtu.be/OGFxp3Pixg8)
 
-We are going to build a Python script that plots a professional candlestick chart for a specific company at the stock market
+We are going to **build a Python script that plots a professional candlestick chart** for a specific company at the stock market usig **Matplotlib** and **mpl_finance**
 
 For our script we will need to import a couple of libraries. Most of them are external and need to be installed.
 
@@ -30,7 +30,7 @@ For our script we will need to import a couple of libraries. Most of them are ex
 - pandas_datareader: The module that will load the desired stock data
 - candlestick_ohlc from mpl_finance: Our main library for plotting
 
-Using the pandas datareader and Yahoo Finance API, the stock data for the company Amazon for the time period of 2010-2020 has been extracted
+Using the pandas datareader and [Yahoo Finance](https://in.finance.yahoo.com/)  API, the stock data for the company Amazon for the time period of 2010-2020 has been extracted
 
 ![](Image4.png)
 
@@ -57,3 +57,5 @@ To make our chart look a bit more professional, we will make some changes in its
 ![](Image5.png)
 
 Of course, the more you zoom in, the more you will be able to see the individual candlesticks. This is a great way to visualize four different values in a single chart.
+
+We can also create Candlestick chart using Plotly. To create Candlestick Chart Visualisation for Stock Analysis using Plotly refer the article - [**Candlestick Chart with Python and Plotly**](https://towardsdatascience.com/python-stock-analysis-candlestick-chart-with-python-and-plotly-e619143642bb) 
