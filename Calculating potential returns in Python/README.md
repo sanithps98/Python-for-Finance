@@ -1,6 +1,6 @@
 # Calculating potential returns in Python
 
-You are a rich investor and somebody comes to you with an investment opportunity to invest in an advertising
+- You are a rich investor and somebody comes to you with an investment opportunity to invest in an advertising
 billboard at a busy junction. The offer is as follows :
 
 - You are required to pay $70000 today
@@ -20,8 +20,7 @@ Period (N) - 5 years
 Interest rates (IR) - 5%
 Present value (PV) - ? 
 
-But you also receive a call from your brother in law Jim, who wants to start a laundromat business. The cost
-of laundromat is $200000, but is short exactly $70000. He is willing to pay you 7.5% for the the loan. 
+- But you also receive a call from your brother in law Jim, who wants to start a laundromat business. The cost of laundromat is $200000, but is short exactly $70000. He is willing to pay you 7.5% for the the loan. 
 
 - You are required to loan $70000 today
 - Current interest rates are 7.5%
