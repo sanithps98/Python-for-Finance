@@ -1,8 +1,16 @@
 # How to calculate stock returns in Python
 
-One of the most important tasks in financial markets is to analyze historical returns on various investments.
+One of the most important tasks in financial markets is to analyze historical returns on various
+ nvestments.
 
-A stock's adjusted closing price gives you all the information you need to keep an eye on your stock. You can use unadjusted closing prices to calculate returns, but adjusted closing prices save you some time and effort. 
+
+A stock's   sted closing price gives you all the information you need to keep an eye on your stock. You can use unadjusted closing prices to calculate returns, but adjusted closing prices save you some
+time and effort.
+
+
+
+
+
 
 https://www.investopedia.com/ask/answers/06/adjustedclosingprice.asp
 
@@ -19,3 +27,8 @@ The pct_change() function is used to get percentage change between the current a
 Computes the percentage change from the immediately previous row by default. This is useful in comparing the percentage of change in a time series of elements.
 
 https://www.w3resource.com/pandas/series/series-pct_change.php
+
+
+Rolling means (or moving averages) are generally used to smooth out short-term fluctuations in time series data and highlight long-term trends. You can read more about them here.
+
+To use the .rolling() method, you must always use method chaining, first calling .rolling() and then chaining an aggregation method after it. For example, with a Series hourly_data, hourly_data.rolling(window=24).mean() would compute new values for each hourly point, based on a 24-hour window stretching out behind each point. The frequency of the output data is the same: it is still hourly. Such an operation is useful for smoothing time series data. 
