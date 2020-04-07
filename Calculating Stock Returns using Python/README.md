@@ -26,7 +26,7 @@ It computes the percentage change from the immediately previous row by default. 
 - [**Rolling means (or moving averages)**](https://www.investopedia.com/terms/m/movingaverage.asp) : A moving average (MA) is a widely used indicator in technical analysis that helps smooth out price action by filtering out the “noise” from random short-term price fluctuations.
 
       To use the .rolling() method, you must always use method chaining, first calling .rolling() and then chaining an aggregation method after it. 
-      For example, with a Series hourly_data, hourly_data.rolling(window=24).mean() would compute new     values for each hourly point, based on a 24-hour window stretching out behind each point.
+      For example, with a Series hourly_data, hourly_data.rolling(window=24).mean() would compute new values for each hourly point, based on a 24-hour window stretching out behind each point.
 
 - [**Cumulative Return**](https://www.investopedia.com/terms/c/cumulativereturn.asp): A cumulative return on an investment is the aggregate amount that the investment has gained or lost over time, independent of the period of time involved.
 
