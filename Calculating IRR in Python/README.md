@@ -14,7 +14,7 @@ The internal rate of return (IRR) is a metric used in capital budgeting to estim
 
 ![](Image2_Formula.png)
 
-Calculation of IRR in Python is easy with the **numpy** module.
+Calculation of IRR in Python is easy with the **numpy** module and [**numpy-financial package**](https://pypi.org/project/numpy-financial/) which contains a collection of elementary financial functions.
 
 ### **Why do we need to calculate the IRR or Internal rate of returns?**
 
