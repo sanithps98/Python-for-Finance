@@ -4,9 +4,15 @@ In this Python script, we will be calculating the Internal Rate of Return(IRR)
 
 First of all, What Is [Internal Rate of Return – IRR](https://www.investopedia.com/terms/i/irr.asp)? 
 
+![](Image1_IRR.jpg)
+
 The internal rate of return (IRR) is a metric used in capital budgeting to estimate the profitability of potential investments. The internal rate of return is a discount rate that makes the net present value (NPV) of all cash flows from a particular project equal to zero.
 
 - [Internal Rate of Return Rule](https://www.investopedia.com/terms/i/internal-rate-of-return-rule.asp)
+
+- [The Formula for Calculating the Internal Rate of Return](https://www.investopedia.com/ask/answers/040215/what-formula-calculating-internal-rate-return-irr.asp)
+
+![](Image2_Formula.png)
 
 Calculation of IRR in Python is easy with the **numpy** module.
 
